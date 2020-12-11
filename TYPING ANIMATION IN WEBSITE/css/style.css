@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+.home{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('../img/bg1.jpg');
+    -webkit-background-size:cover;
+    background-size: cover;
+    height: 100vh;
+}
+nav{
+    text-align: center;
+    padding-top: 2%;
+}
+.logo{
+    display: inline-block;
+    font-size: 1.3rem;
+    border-bottom: 5px solid #ff1;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+nav a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 25px;
+    transition: 0.5s linear;
+}
+nav a:hover{
+    color: #ff1;
+}
+.banner_area{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+.banner_area h3{
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 0 40px 0;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+}
+.banner_area h2{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 5rem;
+    line-height: 0;
+}
+.banner_area h2 span{
+    color: #ff1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
